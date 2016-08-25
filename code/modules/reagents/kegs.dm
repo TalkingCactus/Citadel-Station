@@ -37,6 +37,6 @@
 
 /obj/structure/reagent_dispensers/keg/gargle
 	name = "keg of pan galactic gargleblaster"
-	desc = "A keg of... wow that's a long name."
+	desc = "A keg of... wow that's a long name. Pan Ga-lac-tic Gar-gle Blast-er."
 	icon_state = "bluekeg"
 	reagent_type = "gargleblaster"
