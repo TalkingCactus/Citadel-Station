@@ -21,11 +21,11 @@ REVIVAL_BRAIN_LIFE -1
 ### RENAMING ###
 
 #Uncomment to allow cyborgs to rename themselves at roundstart.  Has no effect on roboticists renaming cyborgs the normal way.
-#RENAME_CYBORG
+RENAME_CYBORG
 
 ### OOC DURING ROUND ###
 #Comment this out if you want OOC to be automatically disabled during the round, it will be enabled during the lobby and after the round end results.
-OOC_DURING_ROUND
+#OOC_DURING_ROUND
 
 ### EMOJI ###
 #Comment this out if you want to disable emojis
@@ -41,7 +41,7 @@ EMOJIS
 ## To speed things up make the number negative, to slow things down, make the number positive.
 
 ## These modify the run/walk speed of all mobs before the mob-specific modifiers are applied.
-RUN_DELAY 2
+RUN_DELAY 1.7
 WALK_DELAY 4
 
 ## The variables below affect the movement of specific mob types.
@@ -74,7 +74,7 @@ ALERT_DELTA Destruction of the station is imminent. All crew are instructed to o
 ### GAME MODES ###
 
 ## Uncomment to not send a roundstart intercept report. Gamemodes may override this.
-#NO_INTERCEPT_REPORT
+NO_INTERCEPT_REPORT
 
 ## Probablities for game modes chosen in 'secret' and 'random' modes.
 ## Default probablity is 1, increase to make that mode more likely to be picked.
@@ -164,7 +164,7 @@ TRAITOR_OBJECTIVES_AMOUNT 2
 
 ## Uncomment to prohibit jobs that start with loyalty
 ## implants from being most antagonists.
-#PROTECT_ROLES_FROM_ANTAGONIST
+PROTECT_ROLES_FROM_ANTAGONIST
 
 ## Uncomment to prohibit assistants from becoming most antagonists.
 #PROTECT_ASSISTANT_FROM_ANTAGONIST
@@ -198,7 +198,7 @@ ALLOW_AI
 
 ### Secborg ###
 ## Uncomment to prevent the security cyborg module from being chosen
-#DISABLE_SECBORG
+DISABLE_SECBORG
 
 ### Peacekeeper Borg ###
 ## Uncomment to prevent the peacekeeper cyborg module from being chosen

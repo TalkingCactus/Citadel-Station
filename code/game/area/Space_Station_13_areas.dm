@@ -601,6 +601,10 @@ var/list/teleportlocs = list()
 	name = "Bar"
 	icon_state = "bar"
 
+/area/crew_quarters/spacebar
+	name = "Space Bar"
+	icon_state = "bar"
+
 /area/crew_quarters/theatre
 	name = "Theatre"
 	icon_state = "Theatre"
