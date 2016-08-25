@@ -1,5 +1,5 @@
 /*
-	In this file we modify the job datums when the ministation.dm file is included/ticked.
+	In this file we modify the job datums when the microstation.dm file is included/ticked.
 	Since we will be overriden by the job datums, we have to modify the variables in the constructor.
 */
 
