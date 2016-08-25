@@ -1,0 +1,71 @@
+"a" = (/turf/template_noop,/area/template_noop)
+"b" = (/turf/open/floor/holofloor/snow/cold,/area/template_noop)
+"c" = (/obj/structure/flora/tree/pine,/turf/open/floor/holofloor/snow/cold,/area/template_noop)
+"d" = (/turf/closed/wall/mineral/wood{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"e" = (/obj/structure/statue/gold/hos,/turf/open/floor/wood/cold{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"f" = (/obj/structure/window/reinforced,/obj/structure/table/wood,/obj/item/weapon/shield/riot/buckler,/turf/open/floor/wood/cold{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"g" = (/obj/structure/window/reinforced,/turf/open/floor/wood/cold{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"h" = (/obj/structure/window/reinforced,/obj/structure/table/wood,/obj/item/weapon/claymore{desc = "An old sword forged hundreds of years ago. It looks old and fragile now."; force = 13; name = "replica ulfberht"},/turf/open/floor/wood/cold{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"i" = (/obj/machinery/computer/shuttle,/turf/open/floor/wood/cold{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"j" = (/turf/open/floor/wood/cold{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"k" = (/obj/structure/table/wood,/obj/machinery/microwave,/turf/open/floor/wood/cold{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"l" = (/obj/structure/table/wood,/turf/open/floor/wood/cold{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"m" = (/obj/structure/chair/wood/normal{tag = "icon-wooden_chair (EAST)"; icon_state = "wooden_chair"; dir = 4},/turf/open/floor/wood/cold{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"n" = (/obj/structure/table/wood,/obj/item/weapon/reagent_containers/food/snacks/kebab/tail,/turf/open/floor/wood/cold{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"o" = (/obj/structure/chair/wood/normal{tag = "icon-wooden_chair (WEST)"; icon_state = "wooden_chair"; dir = 8},/turf/open/floor/wood/cold{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"p" = (/obj/structure/table/wood,/obj/item/weapon/reagent_containers/food/snacks/honeybun,/turf/open/floor/wood/cold{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"q" = (/obj/structure/table/wood,/obj/item/weapon/reagent_containers/food/snacks/meatbun,/turf/open/floor/wood/cold{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"r" = (/obj/machinery/vending/boozeomat{name = "\improper Mead-O-Mat"; product_ads = "Nothing warms you up quite like mead!;Have a taste of the sweet stuff!"; product_slogans = "TO VALHALLA!;What's wrong, somebody steal your sweetroll?"; products = list(/obj/item/weapon/reagent_containers/food/drinks/drinkingglass = 50, /obj/item/weapon/reagent_containers/food/drinks/ice = 10, /obj/item/weapon/reagent_containers/food/drinks/drinkingglass/shotglass = 20); req_access_txt = "0"},/turf/open/floor/wood/cold{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"s" = (/obj/machinery/door/airlock/wood,/turf/open/floor/wood/cold{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"t" = (/obj/machinery/mineral/ore_redemption,/turf/open/floor/wood/cold{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"u" = (/obj/machinery/door/airlock/wood,/obj/structure/fans/tiny,/turf/open/floor/wood/cold{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"v" = (/obj/machinery/autolathe,/turf/open/floor/wood/cold{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"w" = (/obj/structure/closet/crate/trashcart,/turf/open/floor/wood/cold{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"x" = (/obj/structure/closet/crate/freezer,/turf/open/floor/wood/cold{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"y" = (/obj/structure/closet/secure_closet/freezer/meat,/turf/open/floor/wood/cold{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"z" = (/obj/structure/closet/crate,/turf/open/floor/wood/cold{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"A" = (/obj/structure/reagent_dispensers/keg/mead,/turf/open/floor/wood/cold{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"B" = (/obj/structure/closet/crate/internals,/turf/open/floor/wood/cold{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"C" = (/obj/structure/window/reinforced,/obj/structure/closet/crate/trashcart,/turf/open/floor/wood/cold{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"D" = (/obj/structure/window/reinforced,/obj/structure/closet/crate/freezer,/turf/open/floor/wood/cold{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"E" = (/obj/structure/window/reinforced,/obj/structure/closet/secure_closet/freezer/meat,/turf/open/floor/wood/cold{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"F" = (/obj/structure/window/reinforced,/obj/structure/closet/crate,/turf/open/floor/wood/cold{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"G" = (/obj/structure/window/reinforced,/obj/structure/reagent_dispensers/keg/mead,/turf/open/floor/wood/cold{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"H" = (/obj/structure/window/reinforced,/obj/structure/closet/crate/internals,/turf/open/floor/wood/cold{baseturf = /turf/open/floor/plating/lava/smooth},/area/ruin/powered/lavaland_viking_ship)
+"I" = (/obj/structure/shuttle/engine/heater,/turf/open/floor/plating{baseturf = /turf/open/floor/plating/lava/smooth; initial_gas_mix = "o2=14;n2=23;TEMP=300"},/area/ruin/powered/lavaland_viking_ship)
+"J" = (/obj/structure/shuttle/engine/propulsion,/turf/open/floor/plating{baseturf = /turf/open/floor/plating/lava/smooth; initial_gas_mix = "o2=14;n2=23;TEMP=300"},/area/ruin/powered/lavaland_viking_ship)
+
+(1,1,1) = {"
+aaaaaaababaaaaaaaaa
+aaaaabbbbbbbbaaaaaa
+aaaabbbbbbbbbbaaaaa
+aaabbbbbbbbbbbaaaaa
+aaabbbbbbbcbbbaaaaa
+aaabbbbbbdbbbbbbaaa
+aabbbbbbdddbbbbbbaa
+abbbbbbddeddbbbbaaa
+abbbbbddfghddbbbbaa
+abcbbddijjjjddbbbba
+abbbbdkjjjjjjdbbbbb
+aabbbdljjmnojdbbcbb
+abbbbdljjmpojdbbbbb
+aabbbdljjmqojdbbbba
+aabbbdrjjjjjjdbbbaa
+abbbbddddsddddbbbba
+abbbbdjjjjjjjdbbbba
+bcbbbdjjjjjjtdbbbaa
+bbbbbdjjjjjjjdbbbaa
+bbbbbujjjjjjjubbbba
+abbbbdjjjjjjjdbbbba
+aabbbdjjjjjjvdbbbba
+aabbbddddsddddbbbba
+aabcbdjjjjjjjdbcbaa
+abbbbdwxyzAABdbbbaa
+abbbbdCDEFGGHdbbbba
+aaabbdIIIIIIIdbbbaa
+aabbbdJJJJJJJdbbbaa
+aaabbbbbbbbbbbbbaaa
+aaabbbbbbbbbbbbbaaa
+aaaaabbbbbbaaabaaaa
+aaaaaaaaabaaaaaaaaa
+"}

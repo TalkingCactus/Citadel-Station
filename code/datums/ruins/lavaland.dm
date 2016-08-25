@@ -216,3 +216,12 @@
 		dark rituals mid-jump isn't the best idea."
 	suffix = "lavaland_surface_cultcrash.dmm"
 	cost = 10
+
+/datum/map_template/ruin/lavaland/viking
+	name = "Viking Longship"
+	id = "viking-ship"
+	description = "PLACEHOLDER DESCRIPTION \
+	GOES RIGHT HERE."
+	cost = 20
+	suffix = "lavaland_surface_golem_ship.dmm"
+	allow_duplicates = FALSE

@@ -237,3 +237,15 @@
 /obj/effect/mob_spawn/human/prisoner_transport/Destroy()
 	new/obj/structure/fluff/empty_sleeper/syndicate(get_turf(src))
 	..()
+
+/obj/effect/mob_spawn/human/viking
+	name = "skeletal remains"
+	desc = "A pile of bones which smells vaguely of mead. It almost looks like it could come to life."
+	mob_name = "a viking"
+	icon = 'icons/effects/blood.dmi'
+	icon_state = "remains"
+	roundstart = FALSE
+	death = FALSE
+	flavour_text = "<font size=3><b>D</b></font><b>amn. On the way to your next pillaging it seems your ship's autopilot failed. \
+	 You've crashed on a hellish planet, far from what you're use to. Just because it's hellish doesn't mean you can't pillage it, though. \
+	 Pillage the rich for supplies, assert your dominance in this land, and find new meaning in life. May you die honorably so you can find peace in Valhalla."
