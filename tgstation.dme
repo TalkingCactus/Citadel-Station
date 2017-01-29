@@ -136,6 +136,7 @@
 #include "code\citadel\dogborgstuff.dm"
 #include "code\citadel\organs.dm"
 #include "code\citadel\pokemon.dm"
+#include "code\citadel\mobs\cit_megafauna.dm"
 #include "code\citadel\vore\hook-defs_vr.dm"
 #include "code\citadel\vore\trycatch_vr.dm"
 #include "code\citadel\vore\eating\belly_vr.dm"
