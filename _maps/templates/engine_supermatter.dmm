@@ -1,0 +1,74 @@
+"aa" = (/turf/closed/wall/r_wall,/area/awaycontent/a3)
+"ab" = (/obj/structure/lattice/catwalk,/obj/machinery/atmospherics/pipe/heat_exchanging/simple{tag = "icon-intact (SOUTHEAST)"; icon_state = "intact"; dir = 6},/turf/open/space,/area/awaycontent/a3)
+"ac" = (/obj/structure/lattice/catwalk,/obj/machinery/atmospherics/pipe/heat_exchanging/simple{tag = "icon-intact (EAST)"; icon_state = "intact"; dir = 4},/turf/open/space,/area/awaycontent/a3)
+"ad" = (/obj/structure/lattice/catwalk,/obj/machinery/atmospherics/pipe/heat_exchanging/simple{tag = "icon-intact (SOUTHWEST)"; icon_state = "intact"; dir = 10},/turf/open/space,/area/awaycontent/a3)
+"ae" = (/obj/structure/lattice/catwalk,/obj/machinery/atmospherics/pipe/heat_exchanging/simple,/turf/open/space,/area/awaycontent/a3)
+"af" = (/turf/closed/wall,/area/awaycontent/a3)
+"ag" = (/obj/structure/lattice/catwalk,/obj/machinery/atmospherics/pipe/heat_exchanging/simple{tag = "icon-intact (NORTHEAST)"; icon_state = "intact"; dir = 5},/turf/open/space,/area/awaycontent/a3)
+"ah" = (/obj/structure/lattice/catwalk,/obj/machinery/atmospherics/pipe/heat_exchanging/simple{tag = "icon-intact (NORTHWEST)"; icon_state = "intact"; dir = 9},/turf/open/space,/area/awaycontent/a3)
+"ai" = (/obj/machinery/atmospherics/components/unary/tank/nitrogen,/turf/open/floor/plasteel,/area/awaycontent/a3)
+"aj" = (/obj/machinery/power/apc{auto_name = 1; pixel_y = 25},/obj/structure/cable{icon_state = "0-2"; pixel_y = 1; d2 = 2},/turf/open/floor/plasteel,/area/awaycontent/a3)
+"ak" = (/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating/airless/warnplate,/area/awaycontent/a3)
+"al" = (/obj/machinery/atmospherics/components/binary/pump,/turf/open/floor/plasteel,/area/awaycontent/a3)
+"am" = (/obj/machinery/atmospherics/components/binary/pump,/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/open/floor/plasteel,/area/awaycontent/a3)
+"an" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/open/floor/plasteel,/area/awaycontent/a3)
+"ao" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/obj/machinery/light{dir = 1},/turf/open/floor/plasteel,/area/awaycontent/a3)
+"ap" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/turf/open/floor/plasteel,/area/awaycontent/a3)
+"aq" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/turf/open/floor/plasteel,/area/awaycontent/a3)
+"ar" = (/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"; tag = ""},/turf/open/floor/plating,/area/awaycontent/a3)
+"as" = (/turf/open/floor/plating,/area/awaycontent/a3)
+"at" = (/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating/airless/warnplate{dir = 4},/area/awaycontent/a3)
+"au" = (/obj/machinery/atmospherics/pipe/manifold/yellow/visible{tag = "icon-manifold (WEST)"; icon_state = "manifold"; dir = 8},/turf/open/floor/plasteel,/area/awaycontent/a3)
+"av" = (/obj/machinery/atmospherics/pipe/simple/yellow/visible{tag = "icon-intact (NORTHWEST)"; icon_state = "intact"; dir = 9},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"; pixel_y = 0},/turf/open/floor/plasteel/warning/corner,/area/awaycontent/a3)
+"aw" = (/obj/machinery/power/rad_collector,/obj/structure/cable,/turf/open/floor/plasteel/warning,/area/awaycontent/a3)
+"ax" = (/turf/open/floor/plasteel/warning,/area/awaycontent/a3)
+"ay" = (/obj/machinery/power/emitter,/obj/structure/cable,/turf/open/floor/plating,/area/awaycontent/a3)
+"az" = (/obj/machinery/atmospherics/pipe/simple/yellow/visible{tag = "icon-intact (EAST)"; icon_state = "intact"; dir = 4},/obj/machinery/meter,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"; pixel_y = 0},/turf/open/floor/plasteel/warning{tag = "icon-plasteel_warn (EAST)"; icon_state = "plasteel_warn"; dir = 4},/area/awaycontent/a3)
+"aA" = (/obj/structure/window/reinforced,/obj/structure/window/reinforced{tag = "icon-rwindow (NORTH)"; icon_state = "rwindow"; dir = 1},/obj/machinery/atmospherics/components/unary/vent_pump/siphon/on{tag = "icon-vent_in (WEST)"; icon_state = "vent_in"; dir = 8},/obj/structure/window/reinforced/tinted{tag = "icon-twindow (WEST)"; icon_state = "twindow"; dir = 8},/turf/open/floor/engine/airless,/area/awaycontent/a3)
+"aB" = (/obj/structure/window/reinforced,/obj/structure/window/reinforced{tag = "icon-rwindow (NORTH)"; icon_state = "rwindow"; dir = 1},/obj/machinery/power/supermatter_shard{anchored = 1},/turf/open/floor/engine/airless,/area/awaycontent/a3)
+"aC" = (/obj/structure/window/reinforced,/obj/structure/window/reinforced{tag = "icon-rwindow (NORTH)"; icon_state = "rwindow"; dir = 1},/obj/structure/window/reinforced{tag = "icon-rwindow (EAST)"; icon_state = "rwindow"; dir = 4},/obj/machinery/atmospherics/components/unary/outlet_injector/on{tag = "icon-inje_map (EAST)"; icon_state = "inje_map"; dir = 4},/turf/open/floor/engine/airless,/area/awaycontent/a3)
+"aD" = (/obj/machinery/atmospherics/pipe/simple/cyan/visible{tag = "icon-intact (SOUTHWEST)"; icon_state = "intact"; dir = 10},/obj/machinery/meter,/turf/open/floor/plasteel/delivery,/area/awaycontent/a3)
+"aE" = (/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating,/area/awaycontent/a3)
+"aF" = (/obj/structure/reflector/box/mapping{tag = "icon-reflector_box (WEST)"; icon_state = "reflector_box"; dir = 8},/turf/open/floor/plating,/area/awaycontent/a3)
+"aG" = (/obj/machinery/light/small{dir = 4},/turf/open/floor/plating,/area/awaycontent/a3)
+"aH" = (/obj/structure/lattice/catwalk,/obj/machinery/atmospherics/pipe/heat_exchanging/junction{tag = "icon-intact (NORTH)"; icon_state = "intact"; dir = 1},/turf/open/space,/area/awaycontent/a3)
+"aI" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"; pixel_y = 0},/turf/open/floor/plasteel/warning/corner{tag = "icon-plasteel_warn_corner (WEST)"; icon_state = "plasteel_warn_corner"; dir = 8},/area/awaycontent/a3)
+"aJ" = (/obj/machinery/power/rad_collector,/obj/structure/cable{icon_state = "0-2"; pixel_y = 1; d2 = 2},/turf/open/floor/plasteel/warning{tag = "icon-plasteel_warn (NORTH)"; icon_state = "plasteel_warn"; dir = 1},/area/awaycontent/a3)
+"aK" = (/obj/machinery/atmospherics/components/binary/pump{tag = "icon-pump_map (NORTH)"; icon_state = "pump_map"; dir = 1},/turf/open/floor/plasteel/warning{tag = "icon-plasteel_warn (NORTH)"; icon_state = "plasteel_warn"; dir = 1},/area/awaycontent/a3)
+"aL" = (/obj/machinery/power/emitter{tag = "icon-emitter (NORTH)"; icon_state = "emitter"; dir = 1},/obj/structure/cable{icon_state = "0-2"; pixel_y = 1; d2 = 2},/turf/open/floor/plating,/area/awaycontent/a3)
+"aM" = (/obj/structure/lattice/catwalk,/obj/machinery/atmospherics/pipe/simple/yellow/visible{tag = "icon-intact (NORTHEAST)"; icon_state = "intact"; dir = 5},/turf/open/space,/area/awaycontent/a3)
+"aN" = (/obj/machinery/atmospherics/pipe/simple/yellow/visible{tag = "icon-intact (EAST)"; icon_state = "intact"; dir = 4},/turf/closed/wall,/area/awaycontent/a3)
+"aO" = (/obj/machinery/atmospherics/components/trinary/filter,/turf/open/floor/plasteel,/area/awaycontent/a3)
+"aP" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"; pixel_y = 0},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/open/floor/plasteel,/area/awaycontent/a3)
+"aQ" = (/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/turf/open/floor/plasteel,/area/awaycontent/a3)
+"aR" = (/obj/machinery/atmospherics/pipe/simple/cyan/visible,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/turf/open/floor/plasteel,/area/awaycontent/a3)
+"aS" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/open/floor/plating,/area/awaycontent/a3)
+"aT" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{tag = "icon-intact (SOUTHEAST)"; icon_state = "intact"; dir = 6},/turf/closed/wall,/area/awaycontent/a3)
+"aU" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{tag = "icon-intact (EAST)"; icon_state = "intact"; dir = 4},/turf/closed/wall,/area/awaycontent/a3)
+"aV" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{tag = "icon-intact (NORTHWEST)"; icon_state = "intact"; dir = 9},/obj/machinery/meter,/turf/closed/wall,/area/awaycontent/a3)
+"aW" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"; pixel_y = 0},/turf/open/floor/plasteel,/area/awaycontent/a3)
+"aX" = (/turf/open/floor/plasteel,/area/awaycontent/a3)
+"aY" = (/obj/machinery/portable_atmospherics/canister/toxins,/turf/open/floor/plasteel/warning{dir = 9},/area/awaycontent/a3)
+"aZ" = (/obj/machinery/atmospherics/pipe/simple/cyan/visible,/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating/airless/warnplate{tag = "icon-plating_warn (NORTH)"; icon_state = "plating_warn"; dir = 1},/area/awaycontent/a3)
+"ba" = (/obj/machinery/atmospherics/components/unary/outlet_injector/on{tag = "icon-inje_map (NORTH)"; icon_state = "inje_map"; dir = 1},/turf/open/floor/plating/airless/warnplate{tag = "icon-plating_warn (EAST)"; icon_state = "plating_warn"; dir = 4},/area/awaycontent/a3)
+"bb" = (/obj/structure/lattice/catwalk,/turf/open/space,/area/awaycontent/a3)
+"bc" = (/obj/machinery/light/small,/turf/open/floor/plasteel,/area/awaycontent/a3)
+"bd" = (/obj/structure/tank_dispenser/plasma,/turf/open/floor/plasteel/warning{dir = 8},/area/awaycontent/a3)
+"be" = (/obj/structure/lattice/catwalk,/obj/machinery/atmospherics/pipe/simple/cyan/visible{tag = "icon-intact (NORTHEAST)"; icon_state = "intact"; dir = 5},/turf/open/space,/area/awaycontent/a3)
+"bf" = (/obj/structure/lattice/catwalk,/obj/machinery/atmospherics/pipe/heat_exchanging/junction{tag = "icon-intact (EAST)"; icon_state = "intact"; dir = 4},/turf/open/space,/area/awaycontent/a3)
+"bg" = (/obj/structure/cable,/turf/open/floor/plasteel,/area/awaycontent/a3)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaabacacacacacadabadabadabadaa
+aaaeafafafafafagahagahagahaeaa
+aaaeafaiaiajafafakafafafafaeaa
+aaaeafalamanaoapaqaqarasafaeaa
+aaaeatauavawawawaxafayasafaeaa
+aaaeatauazaAaBaCaDaEaFaGafaeaa
+aaaHatalaIaJaJaJaKafaLasafaeaa
+aaaMaNaOaPaQaQaQaRaqaSasafaeaa
+aaaTaUaVaWaXaYafaZafafafafaeaa
+aababbafaWbcbdafbebfacacacahaa
+aaaaaaaabgaaaaaaaaaaaaaaaaaaaa
+"}
