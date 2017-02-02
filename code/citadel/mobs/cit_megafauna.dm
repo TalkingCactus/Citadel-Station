@@ -1,3 +1,4 @@
+//Space Mantis//
 /mob/living/simple_animal/hostile/megafauna/mantis
 	name = "space mantis"
 	desc = "A giant, mutated species of mantis which eats you from the inside out after cutting you in half with its huge clawed appendages. Your pokedex says to run."
@@ -23,7 +24,7 @@
 	aggro_vision_range = 18
 	idle_vision_range = 5
 	loot = list()
-	butcher_results = list(/obj/item/stack/sheet/sinew = 5, /obj/item/stack/sheet/bone = 30)
+	butcher_results = list(/obj/item/weapon/reagent_containers/food/snacks/meat/slab/mantis = 5,)
 	var/obj/item/device/gps/internal
 	deathmessage = "slumps to the ground, motionless and dead."
 	death_sound = 'sound/magic/demon_dies.ogg'
@@ -67,3 +68,43 @@
 		return
 	if(istype(A, /mob/living))
 		devour(A)
+
+//Drops and Meat//
+/obj/item/weapon/reagent_containers/food/snacks/meat/slab/mantis
+	name = "mantis meat"
+	desc = "A slab of meat"
+	icon_state = "meat"
+	dried_type = /obj/item/weapon/reagent_containers/food/snacks/sosjerky
+	bitesize = 3
+	list_reagents = list("nutriment" = 3)
+	cooked_type = /obj/item/weapon/reagent_containers/food/snacks/meat/steak/mantis
+	slice_path = /obj/item/weapon/reagent_containers/food/snacks/meat/rawcutlet/mantis
+	slices_num = 3
+	filling_color = "#A742F4"
+
+/obj/item/weapon/reagent_containers/food/snacks/meat/steak/mantis
+	name = "mantis steak"
+	desc = "A juicy steak of mantis meat, cooked meadium-rare."
+	icon_state = "meatsteak"
+	list_reagents = list("nutriment" = 5)
+	bonus_reagents = list("nutriment" = 2, "vitamin" = 1)
+	trash = /obj/item/trash/plate
+	filling_color = "#B22222"
+
+/obj/item/weapon/reagent_containers/food/snacks/meat/rawcutlet/mantis
+	name = "raw mantis cutlet"
+	desc = "A raw meat cutlet."
+	icon_state = "rawcutlet"
+	cooked_type = /obj/item/weapon/reagent_containers/food/snacks/meat/cutlet/mantis
+	bitesize = 2
+	list_reagents = list("nutriment" = 1)
+	filling_color = "#A742F4"
+
+/obj/item/weapon/reagent_containers/food/snacks/meat/cutlet/mantis
+	name = "mantis cutlet"
+	desc = "A cooked mantis meat cutlet."
+	icon_state = "cutlet"
+	bitesize = 2
+	list_reagents = list("nutriment" = 2)
+	bonus_reagents = list("nutriment" = 1, "vitamin" = 1)
+	filling_color = "#B22222"
