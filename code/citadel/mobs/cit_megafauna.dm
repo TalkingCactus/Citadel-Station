@@ -1,14 +1,14 @@
 //Space Mantis//
 /mob/living/simple_animal/hostile/megafauna/mantis
 	name = "space mantis"
-	desc = "A giant, mutated species of mantis which eats you from the inside out after cutting you in half with its huge clawed appendages. Your pokedex says to run."
+	desc = "A giant, mutated species of mantis which eats you from the inside out after cutting you in half with its huge clawed appendages."
 	health = 1000
 	maxHealth = 1000
 	attacktext = "slices"
 	attack_sound = 'sound/magic/demon_attack1.ogg'
 	icon_state = "spacemantis"
-	icon_living = "spacemantis"
-	icon_dead = "spacemantis"
+	icon_living = "spacemantis_a"
+	icon_dead = "spacemantis_d"
 	friendly = "caresses"
 	icon = 'code/citadel/mobs/cit_spacemantis.dmi'
 	speak_emote = list("chitters")
