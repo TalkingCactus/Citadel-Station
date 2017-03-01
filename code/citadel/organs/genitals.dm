@@ -12,18 +12,24 @@
 	var/fluid_mult = 1
 	var/producing = FALSE
 
+/obj/item/organ/genital/Destroy()
+	if(owner)
+		Remove(owner, 1)//this should remove references to it, so it can be GCd correctly
+	update_link()
+	return ..()
+
 /obj/item/organ/genital/New()
 	..()
 	reagents = create_reagents(fluid_max_volume)
 
 /obj/item/organ/genital/proc/update()
-	return
+
 
 /obj/item/organ/genital/proc/update_size()
-	return
+
 
 /obj/item/organ/genital/proc/update_appearance()
-	return
+
 
 /obj/item/organ/genital/proc/update_link()
 

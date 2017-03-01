@@ -29,7 +29,6 @@
 	var/list/femcum_fluids = list("femcum")
 
 //Mob procs
-/mob/living/Life()
 /mob/living/proc/handle_arousal()
 	return
 
@@ -39,23 +38,27 @@
 		S = dna.species
 		if(S && SSmob.times_fired%36==2 && getArousalLoss() < max_arousal)//Totally stolen from breathing code. Do this every 36 ticks.
 			adjustArousalLoss(arousal_rate * S.arousal_gain_rate)
-			if(dna.features["exhibitionist"])
-				var/amt_nude = 0
-				if(is_chest_exposed() && (gender == FEMALE || getorganslot("breasts")))
-					amt_nude++
-				if(is_groin_exposed())
-					if(getorganslot("penis"))
-						amt_nude++
-					if(getorganslot("vagina"))
-						amt_nude++
-				var/mob/living/M
-				var/watchers = 0
-				for(M in view(world.view, src))
-					if(M.client && !M.stat && !M.eye_blind && (locate(src) in viewers(world.view,M)))
-						watchers++
-				if(watchers && amt_nude)
-					adjustArousalLoss((amt_nude * watchers) + S.arousal_gain_rate)
+			handle_exhibitionism(S)
 
+/mob/living/carbon/proc/handle_exhibitionism(var/datum/species/S)
+	if(!S)
+		return CRASH("Expected /datum/species as S. S = [S]")
+	if(dna.features["exhibitionist"])
+		var/amt_nude = 0
+		if(is_chest_exposed() && (gender == FEMALE || getorganslot("breasts")))
+			amt_nude++
+		if(is_groin_exposed())
+			if(getorganslot("penis"))
+				amt_nude++
+			if(getorganslot("vagina"))
+				amt_nude++
+		var/mob/living/M
+		var/watchers = 0
+		for(M in view(world.view, src))
+			if(M.client && !M.stat && !M.eye_blind && (locate(src) in viewers(world.view,M)))
+				watchers++
+		if(watchers && amt_nude)
+			adjustArousalLoss((amt_nude * watchers) + S.arousal_gain_rate)
 
 /mob/living/proc/getArousalLoss()
 	return arousalloss

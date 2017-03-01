@@ -432,10 +432,10 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	features["has_breasts"]			= sanitize_integer(features["has_breasts"], 0, 1, 0)
 	features["breasts_size"]		= sanitize_inlist(features["breasts_size"], breasts_size_list, "C")
 	features["breasts_color"]		= sanitize_hexcolor(features["breasts_color"], 3, 0)
-	features["breasts_fluid"] 		= sanitize_inlist(features["breasts_fluid"], cum_id_list, "semen")
+	features["breasts_fluid"] 		= sanitize_inlist(features["breasts_fluid"], milk_id_list, "milk")
 	//vagina features
 	features["has_vag"]				= sanitize_integer(features["has_vag"], 0, 1, 0)
-	features["vag_color"]			= sanitize_hexcolor(features["breasts_color"], 3, 0)
+	features["vag_color"]			= sanitize_hexcolor(features["vag_color"], 3, 0)
 
 	joblessrole	= sanitize_integer(joblessrole, 1, 3, initial(joblessrole))
 	job_civilian_high = sanitize_integer(job_civilian_high, 0, 65535, initial(job_civilian_high))
