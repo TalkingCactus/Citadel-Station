@@ -153,6 +153,7 @@
 #include "code\citadel\cit_genemods.dm"
 #include "code\citadel\cit_guns.dm"
 #include "code\citadel\cit_kegs.dm"
+#include "code\citadel\cit_landmarks.dm"
 #include "code\citadel\cit_reagents.dm"
 #include "code\citadel\cit_uniforms.dm"
 #include "code\citadel\cit_vendors.dm"

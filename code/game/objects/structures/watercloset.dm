@@ -352,6 +352,9 @@
 			if(H.ears && washears)
 				if(H.ears.clean_blood())
 					H.update_inv_ears()
+				if(istype(H.ears, /obj/item/device/radio))
+					var/obj/item/device/radio/R
+
 			if(H.belt)
 				if(H.belt.clean_blood())
 					H.update_inv_belt()
@@ -360,6 +363,8 @@
 				if(M.wear_mask.clean_blood())
 					M.update_inv_wear_mask(0)
 			M.clean_blood()
+		for(var/obj/item/device/radio/R in M)
+			R.emp_act(1)
 	else
 		L.clean_blood()
 
@@ -373,6 +378,8 @@
 				wash_mob(L)
 			else
 				wash_obj(G)
+				if(istype(G, /obj/item/device/radio))
+					G.emp_act(1)
 
 /obj/machinery/shower/deconstruct(disassembled = TRUE)
 	new /obj/item/stack/sheet/metal (loc, 3)
