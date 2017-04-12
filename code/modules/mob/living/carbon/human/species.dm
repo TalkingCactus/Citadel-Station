@@ -162,7 +162,8 @@
 	if(NOAROUSAL in species_traits)
 		C.canbearoused = FALSE
 	else
-		C.canbearoused = C.client.prefs.arousable
+		if(C.client)
+			C.canbearoused = C.client.prefs.arousable
 
 /datum/species/proc/on_species_loss(mob/living/carbon/C)
 	if(C.dna.species.exotic_bloodtype)
@@ -310,13 +311,12 @@
 
 
 	// eyes
-	var/has_eyes = TRUE
+	var/has_eyes = (H.getorgan(/obj/item/organ/eyes) && HD)
 
-	if(!H.getorgan(/obj/item/organ/eyes) && HD)
+	if(!has_eyes)
 		standing += image("icon"='icons/mob/human_face.dmi', "icon_state" = "eyes_missing", "layer" = -BODY_LAYER)
-		has_eyes = FALSE
 
-	if(!(H.disabilities & HUSK))
+	if(!HUSK)
 		// lipstick
 		if(H.lip_style && (LIPS in species_traits) && HD)
 			var/image/lips = image("icon"='icons/mob/human_face.dmi', "icon_state"="lips_[H.lip_style]", "layer" = -BODY_LAYER)
