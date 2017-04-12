@@ -15,16 +15,15 @@
 		return
 	say(message) //only carbons actually whisper, everything else just talks
 
-/mob/verb/me_verb(message as text)
+/mob/verb/me_verb(message as message)
 	set name = "Me"
 	set category = "IC"
 
 	if(say_disabled)	//This is here to try to identify lag problems
 		to_chat(usr, "<span class='danger'>Speech is currently admin-disabled.</span>")
 		return
-
-	message = trim(copytext(sanitize(message), 1, MAX_MESSAGE_LEN))
-
+	var/list/replace_chars = list("\n"=" ","\t"=" ")
+	message = copytext(sanitize(message, replace_chars), 1, (MAX_MESSAGE_LEN*2))
 	usr.emote("me",1,message)
 
 /mob/proc/say_dead(var/message)
