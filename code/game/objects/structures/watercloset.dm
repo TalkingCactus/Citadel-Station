@@ -352,9 +352,6 @@
 			if(H.ears && washears)
 				if(H.ears.clean_blood())
 					H.update_inv_ears()
-				if(istype(H.ears, /obj/item/device/radio))
-					var/obj/item/device/radio/R
-
 			if(H.belt)
 				if(H.belt.clean_blood())
 					H.update_inv_belt()
