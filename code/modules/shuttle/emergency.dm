@@ -207,8 +207,17 @@
 
 	. = ..()
 
-/obj/docking_port/mobile/emergency/request(obj/docking_port/stationary/S, coefficient=1, area/signalOrigin, reason, redAlert)
-	var/call_time = SSshuttle.emergencyCallTime * coefficient
+/obj/docking_port/mobile/emergency/request(obj/docking_port/stationary/S, area/signalOrigin, reason, redAlert, set_coefficient=null)
+	if(!isnum(set_coefficient))
+		var/security_num = seclevel2num(get_security_level())
+		switch(security_num)
+			if(SEC_LEVEL_GREEN)
+				set_coefficient = 2
+			if(SEC_LEVEL_BLUE)
+				set_coefficient = 1
+			else
+				set_coefficient = 0.5
+	var/call_time = SSshuttle.emergencyCallTime * set_coefficient
 	switch(mode)
 		// The shuttle can not normally be called while "recalling", so
 		// if this proc is called, it's via admin fiat
@@ -450,7 +459,7 @@
 	// Minimal distance from the map edge, setting this too low can result in shuttle landing on the edge and getting "sliced"
 
 /obj/docking_port/stationary/random/Initialize(mapload)
-	..()
+	. = ..()
 	if(!mapload)
 		return
 

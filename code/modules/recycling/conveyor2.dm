@@ -108,10 +108,8 @@
 	affecting = loc.contents - src		// moved items will be all in loc
 	sleep(1)
 	for(var/atom/movable/A in affecting)
-		if(!A.anchored)
-			if(A.loc == src.loc) // prevents the object from being affected if it's not currently here.
-				step(A,movedir)
-		CHECK_TICK
+		if(A.loc == loc)
+			A.ConveyorMove(movedir)
 
 // attack with item, place item on conveyor
 /obj/machinery/conveyor/attackby(obj/item/I, mob/user, params)
@@ -214,13 +212,14 @@
 
 
 /obj/machinery/conveyor_switch/Initialize(mapload, newid)
-	if(mapload)
-		return TRUE	//need machines list
 	..()
 	if(!id)
 		id = newid
 	update()
 
+	return INITIALIZE_HINT_LATELOAD //for machines list
+
+/obj/machinery/conveyor_switch/LateInitialize()
 	conveyors = list()
 	for(var/obj/machinery/conveyor/C in GLOB.machines)
 		if(C.id == id)

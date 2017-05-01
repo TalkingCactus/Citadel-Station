@@ -92,7 +92,7 @@ GLOBAL_PROTECT(AdminProcCall)
 		UNTIL(!GLOB.AdminProcCall)
 		to_chat(usr, "<span class='adminnotice'>Running your proc</span>")
 	GLOB.AdminProcCall = usr.client.ckey	//if this runtimes, too bad for you
-	world.WrapAdminProcCall(target, procname, arguments)
+	. = world.WrapAdminProcCall(target, procname, arguments)
 	GLOB.AdminProcCall = null
 
 //adv proc call this, ya nerds
@@ -100,7 +100,7 @@ GLOBAL_PROTECT(AdminProcCall)
 	if(target == GLOBAL_PROC)
 		return call(procname)(arglist(arguments))
 	else
-		return call(procname)(arglist(arguments))
+		return call(target, procname)(arglist(arguments))
 
 /proc/IsAdminAdvancedProcCall()
 	return usr && usr.client && GLOB.AdminProcCall == usr.client.ckey
@@ -720,6 +720,13 @@ GLOBAL_PROTECT(AdminProcCall)
 		dat += "[path]<BR>"
 
 	usr << browse(dat, "window=dellog")
+
+/client/proc/cmd_display_init_log()
+	set category = "Debug"
+	set name = "Display Initialzie() Log"
+	set desc = "Displays a list of things that didn't handle Initialize() properly"
+
+	usr << browse(replacetext(SSatoms.InitLog(), "\n", "<br>"), "window=initlog")
 
 /client/proc/debug_huds(i as num)
 	set category = "Debug"
