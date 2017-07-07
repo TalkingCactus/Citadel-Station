@@ -1,0 +1,7 @@
+{
+    "map_name": "Femto Station",
+    "map_path": "map_files/FemtoStation",
+    "map_file": "femtostation.dmm",
+    "minetype": "lavaland",
+    "transition_config": "default"
+}
